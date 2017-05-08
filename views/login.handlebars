@@ -1,0 +1,40 @@
+
+
+
+
+
+
+<div class="jumbotron">
+  <h1>Inside my account</h1>
+	<p>&nbsp;</p>
+	<div class="mycontainer">
+
+		<ul class="tabs">
+			<li class="tab-link current" data-tab="tab-1">User ID</li>
+			<li class="tab-link" data-tab="tab-2">Email</li>
+			<li class="tab-link" data-tab="tab-3">User Type</li>
+			<li class="tab-link" data-tab="tab-4">Organisation Name</li>
+			<li class="tab-link" data-tab="tab-5">Updated at</li>
+
+		</ul>
+
+		<div id="tab-1" class="tab-content current">
+			{{data.id}}
+		</div>
+		<div id="tab-2" class="tab-content">
+			 {{data.emails.0.value}}
+		</div>
+		<div id="tab-3" class="tab-content">
+			{{data.user_type}}
+		</div>
+		<div id="tab-4" class="tab-content">
+			{{data.organisation_name}}
+		</div>
+		<div id="tab-5" class="tab-content">
+			{{data.updated_at}}
+		</div>
+
+	</div>
+  <p>&nbsp;</p>
+  <p><a class="btn btn-lg btn-success" href="/logout" role="button">LogOUT</a></p>
+</div>

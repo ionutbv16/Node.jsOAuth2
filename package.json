@@ -1,0 +1,29 @@
+{
+  "name": "wall",
+  "version": "1.0.0",
+  "description": "OAuth2 Demo by Ion Chirita",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "path": "*",
+    "body-parser": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-passport-logout": "^0.1.0",
+    "express-session": "*",
+    "express-validator": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "*",
+    "passport-oauth2": "*",
+    "express-passport-logout": "*"
+
+  }
+}
